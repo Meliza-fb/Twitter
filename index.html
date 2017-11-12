@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header id="Inicio">
+      <a href="#">Twitter</a>
+    </header>
+
+    <section>
+      <div id="cont">
+
+      <textarea name="texto" placeholder="¿Qué está pasando?"  onkeydown="contar()" rows="8" cols="38"></textarea>
+      <button name="btn" type="button" onclick="add()">Twittear</button>
+      <input id="contador" disabled size="3" value="140" onkeydown="contar()">
+</div>
+
+
+    </section>
+
+    <div id="timeLine">
+    <!--<p>_</p></div>-->
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+
+body{
+  background-color: #6E6E6E;
+  text-align: center;
+  margin: -10px;
+  padding: 10px;
+
+}
+
+header{
+  background-color: #58ACFA;
+  height: 40px;
+}
+
+
+#Inicio a{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+section,#cont{
+		background-color: #EAECEE;
+    padding: 10px;
+		width: 411px;
+    margin-left: 250px;
+		border: 1px solid #C8C8C8;
+		border-radius: 5px;
+	}
+
+	textarea{
+		padding: 5px 5px 5px;
+		margin-top: 30px;
+    text-align: center;
+    width: 395px;
+	}
+
+	input{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+		/*color: #5DADE2;*/
+    outline-color: inherit;
+    border-color: transparent;
+    margin-left: -40px;
+	}
+
+  button{
+    background-color:#5DADE2;
+    color:white;
+    font-size: 17px;
+    padding: 6px;
+    border-radius: 12px;
+    margin-right: 300px;
+  }
